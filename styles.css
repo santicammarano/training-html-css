@@ -21,10 +21,11 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  min-width: 350px;
   height: 100vh;
   gap: 50px;
   background-size: cover;
-  background-image: url(background.jpg);
+  background-image: url(./assets/images/background.jpg);
   /* background-repeat: no-repeat; */
 }
 
@@ -37,14 +38,15 @@ p {
   left: 0;
   right: 0;
   bottom: 0;
-
+  
 }
 
 .info {
   position: relative;
-  width: 600px;
+  max-width: 600px;
   text-align: center;
   color: white;
+  padding: 15px;
 }
 
 .info span {
